@@ -1,0 +1,27 @@
+{
+  "name": "xlsx-extractor",
+  "version": "1.0.0",
+  "description": "Change XLSX files to CSV",
+  "main": "./src/index.js",
+  "scripts": {
+    "convertDev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "convert": "cross-env NODE_ENV=production node src/index.js"
+  },
+  "keywords": [
+    "IBM-i"
+  ],
+  "author": "IBIS-Management Associates",
+  "license": "MIT",
+  "dependencies": {
+    "node-xlsx": "^0.21.0",
+    "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.2"
+  }
+}

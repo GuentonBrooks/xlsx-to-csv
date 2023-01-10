@@ -1,0 +1,3 @@
+Recordtype, FileDate, FileType, Balanced, Customernumber, AccountNumber, AccountCurrency, Hash, Organization, PAYMENT, Y, , , , , 
+10, 20210625, PAYMENT, Y, 16489, 1648900909, ANG, , JANE I TEST , COLLECT, N, , , , , 
+Recordtype, BankId, ClearingCode, Accountnumber, AccountCurrency, Amount, AmountCurrency, Description1, Description2, Description3, Description4, BenName, BenAddress, BenCity, BenCountry, 
